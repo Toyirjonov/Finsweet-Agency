@@ -1,0 +1,164 @@
+.header {
+  padding-top: 2.7rem;
+  padding-bottom: 2.9rem;
+  background-color: $dark__blue;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.8rem;
+}
+
+.site__nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+
+.site__nav__link {
+  color: $white;
+  opacity: 0.6;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.site__nav__item {
+  display: flex;
+}
+
+.active {
+  color: $white;
+  opacity: 1;
+  line-height: 24px;
+}
+
+.site__nav__item:nth-child(7) .site__nav__link {
+  color: $secondary_orange;
+  opacity: 1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.site__nav__link--clone {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  .site__nav__arrow {
+    width: 12px;
+    height: auto;
+  }
+}
+
+.black-kvadtar {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.06);
+  margin-bottom: 2.4rem;
+}
+
+// HERO
+.hero__container {
+  margin-top: 9.6rem;
+}
+
+.hero__container__content {
+  display: flex;
+  gap: 10.9rem;
+}
+.hero__container__left {
+}
+
+.hero__container__left__title {
+  width: 624px;
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 68px;
+  margin-bottom: 2.4rem;
+}
+
+.hero__container__left__description {
+  width: 528px;
+  color: #fff;
+  opacity: 0.6;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 3.2rem;
+}
+
+.hero__container__button {
+  background-image: url("../icons/small-shape.png");
+  background-repeat: no-repeat;
+  width: 219px;
+  height: 64px;
+  padding-left: 3.2rem;
+  background-color: #444cfc;
+
+  color: #fff;
+  opacity: 0.87;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.hero__container__right {
+  margin-top: -9.6rem;
+}
+
+.clients {
+  padding: 4rem 0;
+}
+
+.clients__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__header {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.clients__subtitle {
+  color: $white;
+  opacity: 0.6;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.clients__title {
+  color: $white;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0;
+}
+
+.clients__logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients__logos {
+  max-height: 40px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}

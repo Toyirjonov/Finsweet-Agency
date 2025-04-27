@@ -1,0 +1,257 @@
+.site-footer {
+  &__bottom {
+    background-color: #ffd3af;
+    padding-top: 2.8rem;
+    padding-bottom: 2.7rem;
+
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-branding {
+      display: flex;
+      align-items: center;
+      gap: 4.2rem;
+    }
+
+    &-logo {
+      &-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+
+    &-socials {
+      display: flex;
+      gap: 2.7rem;
+    }
+  }
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #666dff;
+  padding: 96px;
+  background-image: url("../icons/footer-shape.svg"),
+    url("../icons/footer-shape-top.svg");
+  background-repeat: no-repeat;
+  background-position: top left, right;
+  background-size: 88.59px 80px, contain;
+  margin-bottom: 96px;
+
+  &__content {
+    width: 100%;
+    max-width: 488px;
+    color: #fff;
+  }
+
+  &__label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  &__input {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 20px 29px;
+    width: 454px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      opacity: 0.4;
+    }
+  }
+}
+
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.contact-info {
+  &__title {
+    width: 452px;
+    color: #232536;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    margin-bottom: 40px;
+  }
+
+  &__subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 2.8rem;
+  }
+
+  &__phone {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #232536;
+    margin-bottom: 0.4rem;
+    display: inline-block;
+  }
+
+  &__email {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #232536;
+    display: block;
+    margin-bottom: 1.4rem;
+  }
+
+  &__divider {
+    width: 100%;
+    max-width: 268px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.6rem;
+  }
+
+  &__address {
+    p {
+      color: #232536;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+    }
+  }
+}
+
+.footer-links {
+  display: flex;
+  padding-right: 117px;
+  padding-top: 80px;
+  padding-bottom: 92px;
+
+  &__group {
+    margin-right: 5.8rem;
+
+    &:first-child {
+      margin-right: 61px;
+    }
+  }
+
+  &__heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    margin-bottom: 1.2rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #232536;
+  }
+}
+
+.action-button {
+  display: flex;
+  gap: 0.8rem;
+  position: absolute;
+  padding-left: 5.8rem;
+  bottom: 0;
+  right: 0;
+  background-image: url("../icons/shape-footer.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+
+  & span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+  }
+
+  &__icon {
+    object-fit: contain;
+  }
+}
+
+.footer__bottom {
+  background-color: #ffd3af;
+  padding-top: 2.8rem;
+  padding-bottom: 2.7rem;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.footer__branding {
+  display: flex;
+  align-items: center;
+  gap: 4.2rem;
+
+  & .footer__logo {
+    img {
+      width: auto;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+
+  & .footer__copyright {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+  }
+}
+
+.footer__socials {
+  display: flex;
+  gap: 2.7rem;
+
+  &-link {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+    }
+  }
+}
